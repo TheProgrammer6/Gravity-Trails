@@ -46,5 +46,9 @@ public class EnemyMovement : MonoBehaviour
             Vector2 jumpForce = new Vector2(xDirection , yForce);
             enemyRigidBody.AddForce(jumpForce);
         }
+         if (collision.gameObject.tag == "newys")
+        {
+         Destroy( gameObject);
+        }
     }
 }

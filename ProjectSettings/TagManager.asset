@@ -8,6 +8,8 @@ TagManager:
   - ThrowingObject
   - Ground
   - Collectable
+  - destroy 342344567686
+  - newys
   layers:
   - Default
   - TransparentFX
